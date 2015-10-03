@@ -1,0 +1,13 @@
+# Make tab autocomplete regardless of filename case
+set completion-ignore-case on
+
+# Immediately add a trailing slash when automcompleting symlinks to directories
+set mark-symlinked-directories on
+
+# Do not autocomplete hidden files unless the pattern starts with a dot
+set match-hidden-files off
+
+# Allow UTF-8 input and output
+set input-meta on
+set output-meta on
+set convert-meta off

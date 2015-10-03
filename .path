@@ -1,0 +1,2 @@
+# Allow access to installed homebrew binaries
+PATH="/usr/local/sbin:$PATH"

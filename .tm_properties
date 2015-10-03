@@ -1,0 +1,7 @@
+# TextMate 2 settings
+
+# Show TextMate settings, .htaccess and .gitignore files in the file browser
+include = {*,.tm_properties,.htaccess,.gitignore}
+
+# Set the max line width to 80 characters
+wrapColumn = 80
