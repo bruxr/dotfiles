@@ -1,2 +1,2 @@
 # Allow access to installed homebrew binaries
-PATH="/usr/local/sbin:$PATH"
+export PATH="$(brew --prefix homebrew/php/php56)/bin:$PATH"
