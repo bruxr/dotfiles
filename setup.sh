@@ -3,7 +3,6 @@
 function doIt() {
 	rsync --exclude ".git/" --exclude ".DS_Store" --exclude "setup.sh" \
 		--exclude "README.md" --exclude "LICENSE-MIT.txt" -avh --no-perms . ~;
-	sh .osx
 	source ~/.bash_profile;
 }
 
