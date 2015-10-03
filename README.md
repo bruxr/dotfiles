@@ -1,4 +1,4 @@
-# Brux's dotfiles
+# Brux' dotfiles
 
 Heavily based on the dotfiles of [paul](https://github.com/paulirish/dotfiles) and [mathias](https://github.com/mathiasbynens/dotfiles). Check out their dotfiles first as they are much more complete than mine.
 
