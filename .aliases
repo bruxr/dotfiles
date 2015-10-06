@@ -13,4 +13,7 @@ alias redis="redis-server /usr/local/etc/redis.conf"
 
 # Quickly launch a PHP dev server
 alias srv="php -S localhost:8000 -t public/"
-alias wps="wp server --host=wp.dev --port=80"
+
+# Wordpress stuff
+alias wpsrv="wp server --host=0.0.0.0"
+alias wpdir="cd ~/Projects/Wordpress"
