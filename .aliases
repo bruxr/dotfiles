@@ -15,5 +15,5 @@ alias redis="redis-server /usr/local/etc/redis.conf"
 alias srv="php -S localhost:8000 -t public/"
 
 # Wordpress stuff
-alias wpsrv="wp server --host=0.0.0.0"
+alias wpsrv="php -S localhost:8080 ~/Projects/Wordpress/router.php"
 alias wpdir="cd ~/Projects/Wordpress"
