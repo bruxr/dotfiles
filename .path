@@ -1,2 +1,2 @@
 # Allow access to installed homebrew binaries
-export PATH="~/.composer/vendor/bin:$(brew --prefix homebrew/php/php56)/bin:$PATH"
+export PATH="~/.composer/vendor/bin:$PATH"
