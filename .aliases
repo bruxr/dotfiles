@@ -16,4 +16,5 @@ alias mongodb="mongod --config /usr/local/etc/mongod.conf"
 alias srv="php -S localhost:8000 -t public/"
 
 # Wordpress stuff
-alias wpc="cd ~/Projects/Wordpress/wp-content"
+alias wpsrv="php -S localhost:8080 ~/Projects/Wordpress/router.php"
+alias wpdir="cd ~/Projects/Wordpress"
