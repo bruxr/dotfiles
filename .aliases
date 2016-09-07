@@ -3,6 +3,10 @@ alias ..="cd .."
 alias ~="cd ~"
 alias p="cd ~/Projects"
 
+# Git shortcuts
+alias ga="git add ."
+alias gs="git status"
+
 # lock this computer
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
 
