@@ -2,6 +2,10 @@
 alias ..="cd .."
 alias ~="cd ~"
 alias p="cd ~/Projects"
+alias is="cd ~/Projects/Ingenuity/Sources"
+
+# Ingenuity stuff
+alias beingen="git config user.name 'Brux Romuar'; git config user.email brux@ingenuity.ph"
 
 # Git shortcuts
 alias ga="git add ."
@@ -13,7 +17,7 @@ alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resourc
 # Easily launch servers
 alias serve="http-server"
 alias pg="postgres -D /usr/local/var/postgres"
-alias mysql="mysql.server start"
+#alias mysql="mysql.server start"
 alias redis="redis-server /usr/local/etc/redis.conf"
 alias mongodb="mongod --config /usr/local/etc/mongod.conf"
 
