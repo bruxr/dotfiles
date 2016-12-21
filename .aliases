@@ -10,6 +10,7 @@ alias beingen="git config user.name 'Brux Romuar'; git config user.email brux@in
 # Git shortcuts
 alias ga="git add ."
 alias gs="git status"
+alias gp="git push"
 
 # lock this computer
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
