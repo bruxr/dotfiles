@@ -1,0 +1,9 @@
+# Shorthand git commit
+gc() {
+  git commit -m '$1'
+}
+
+# Shorthand git merge
+gm() {
+  git merge $1 -m --no-edit
+}
