@@ -5,5 +5,5 @@ gc() {
 
 # Shorthand git merge
 gm() {
-  git merge $1 -m --no-edit
+  git merge $1 --no-edit
 }
