@@ -6,6 +6,8 @@ source ~/.bash_prompt
 
 export NVM_DIR="/Users/brux/.nvm"
 
+eval "$(rbenv init -)"
+
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi # This loads pyenv
 
