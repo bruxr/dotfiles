@@ -1,0 +1,3 @@
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Project/Ingenuity/Sources
+source $HOME/.pyenv/versions/2.7.11/bin/virtualenvwrapper.sh
