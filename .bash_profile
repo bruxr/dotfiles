@@ -12,6 +12,8 @@ export NVM_DIR="/Users/brux/.nvm"
 
 eval "$(rbenv init -)"
 
+source $HOME/.phpbrew/bashrc
+
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f /Users/brux/Downloads/google-cloud-sdk/path.bash.inc ]; then
   source '/Users/brux/Downloads/google-cloud-sdk/path.bash.inc'
