@@ -1,4 +1,5 @@
 if which pyenv > /dev/null; then eval "$(pyenv init -)"; fi # This loads pyenv
+export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
 source ~/.path
@@ -7,8 +8,6 @@ source ~/.aliases
 source ~/.functions
 source ~/.bash_prompt
 source ~/.virtualenvwrapper
-
-export NVM_DIR="/Users/brux/.nvm"
 
 eval "$(rbenv init -)"
 
