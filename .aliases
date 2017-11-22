@@ -11,6 +11,8 @@ alias beingen="git config user.name 'Brux Romuar'; git config user.email brux@in
 alias ga="git add ."
 alias gs="git status"
 alias gp="git push"
+alias gfu="git fetch upstream"
+alias gc="git commit"
 
 # lock this computer
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
