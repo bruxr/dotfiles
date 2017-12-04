@@ -13,6 +13,7 @@ alias gs="git status"
 alias gp="git push"
 alias gfu="git fetch upstream"
 alias gc="git commit"
+alias gca="git commit --amend"
 
 # lock this computer
 alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
