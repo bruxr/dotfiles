@@ -8,10 +8,9 @@ source ~/.aliases
 source ~/.functions
 source ~/.bash_prompt
 source ~/.virtualenvwrapper
+source ~/.phpbrew/bashrc
 
 eval "$(rbenv init -)"
-
-source $HOME/.phpbrew/bashrc
 
 # The next line updates PATH for the Google Cloud SDK.
 if [ -f /Users/brux/Downloads/google-cloud-sdk/path.bash.inc ]; then
