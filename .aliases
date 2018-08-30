@@ -2,10 +2,6 @@
 alias ..="cd .."
 alias ~="cd ~"
 alias p="cd ~/Projects"
-alias is="cd ~/Projects/Ingenuity/Sources"
-
-# Ingenuity stuff
-alias beingen="git config user.name 'Brux Romuar'; git config user.email brux@ingenuity.ph"
 
 # Git shortcuts
 alias ga="git add ."
@@ -15,20 +11,13 @@ alias gfu="git fetch upstream"
 alias gc="git commit"
 alias gca="git commit --amend"
 
-# lock this computer
-alias lock="/System/Library/CoreServices/Menu\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-
 # Easily launch servers
 alias serve="http-server"
 alias pgs="pg_ctl -D /usr/local/var/postgres start"
 alias pgx="pg_ctl -D /usr/local/var/postgres stop"
-#alias mysql="mysql.server start"
+alias mysqls="mysql.server start"
 alias redis="redis-server /usr/local/etc/redis.conf"
 alias mongodb="mongod --config /usr/local/etc/mongod.conf"
 
 # Quickly launch a PHP dev server
-alias srv="php -S localhost:8000 -t public/"
-
-# Wordpress stuff
-alias wpsrv="php -S localhost:8080 ~/Projects/Wordpress/router.php"
-alias wpdir="cd ~/Projects/Wordpress"
+alias phpsrv="php -S localhost:8000 -t public/"
