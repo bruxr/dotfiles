@@ -4,4 +4,4 @@ export NVM_DIR="$HOME/.nvm"
 #source ~/.path
 #source ~/.exports
 source ~/.aliases
-source ~/.functions
+#source ~/.functions
